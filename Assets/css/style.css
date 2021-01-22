@@ -1,0 +1,56 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*body style*/
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+
+}
+
+/*container syle*/
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border: 1px solid darkblue;
+    padding: 10px;
+}
+
+/* puts buttons in a grid */
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+/* button style */
+.btn {
+    border: 1px solid darkblue;
+    background-color: blue;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+}
+
+
+/*center buttons*/
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+/*hide the questions and answers to being*/
+.hide{
+    display: none;
+}
